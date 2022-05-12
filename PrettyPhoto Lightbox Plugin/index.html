@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>PrettyPhoto Lightbox Plugin</title>
+ <link rel="stylesheet" href="css/prettyPhoto.css">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+<div class="nafees">
+   <a href="images/fullscreen/1.jpg" rel="prettyPhoto[pp_gal]"><img src="images/thumbnails/t_1.jpg" width="60" height="60"/></a>
+
+   <a href="images/fullscreen/2.jpg" rel="prettyPhoto[pp_gal]"><img src="images/thumbnails/t_2.jpg" width="60" height="60"/></a>
+   
+   <a href="images/fullscreen/3.jpg" rel="prettyPhoto[pp_gal]"><img src="images/thumbnails/t_3.jpg" width="60" height="60"/></a>
+   
+   <a href="images/fullscreen/4.jpg" rel="prettyPhoto[pp_gal]"><img src="images/thumbnails/t_4.jpg" width="60" height="60"/></a>
+   
+   <a href="images/fullscreen/5.jpg" rel="prettyPhoto[pp_gal]"><img src="images/thumbnails/t_5.jpg" width="60" height="60"/></a>
+</div>
+
+ <script src="js/jquery-1.6.1.min.js"></script>
+ <script src="js/jquery.prettyPhoto.js"></script>
+ <script>
+  $("a[rel^='prettyPhoto']").prettyPhoto();
+ </script>
+</body>
+</html>
